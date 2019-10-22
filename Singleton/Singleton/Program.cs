@@ -1,5 +1,8 @@
 ﻿using System;
-class Single
+
+namespace Singleton
+{
+    class Single
 {
     private static Single ob = null;
     protected Single()
@@ -17,8 +20,6 @@ class Single
         
     }
 }
-namespace Singleton
-{
     class Program
     {
         static void Main(string[] args)
